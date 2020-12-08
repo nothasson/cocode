@@ -27,3 +27,29 @@ class Solution {
         return count + div(a - tb, b);
     }
 }
+
+class Solution {
+    public int divide(int dividend, int divisor) {
+        if (dividend == Integer.MIN_VALUE && divisor == -1) {// 溢出处理
+            return Integer.MAX_VALUE;
+        }
+        int sign = -1;
+        if ((dividend > 0 && divisor > 0) || (divisor < 0 && dividend < 0)) {
+            sign = 1;// 同号为正
+        }
+        dividend = -Math.abs(dividend);
+        divisor = -Math.abs(divisor);
+        int result = 0;
+        while (dividend <= divisor) {
+            int r = 1;
+            int temp = divisor;
+            while (dividend - temp <= temp) {
+                r = r << 1;
+                temp = temp << 1;
+            }
+            result += r;
+            dividend = dividend - temp;
+        }
+        return result * sign;
+    }
+}
