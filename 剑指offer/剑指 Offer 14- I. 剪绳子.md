@@ -13,3 +13,47 @@ https://leetcode-cn.com/problems/jian-sheng-zi-lcof/
 
 
 
+![image-20210112142912390](https://gitee.com/20162180090/piccgo/raw/master/pic/image-20210112142912390.png)
+
+自己写的时候忘记考虑绿色的部分了，所以有些过不了。
+
+```java
+class Solution {
+    public int cuttingRope(int n) {
+        int[] dp = new int[n + 1];
+        Arrays.fill(dp, 1);
+        for (int i = 2; i < dp.length; i++) {
+            for (int j = 1; j < i; j++) {
+                dp[i] = Math.max(dp[i], Math.max(j * dp[i - j], j * (i - j)));
+            }
+        }
+        return dp[n];
+    }
+}
+```
+
+![image-20210112143023257](https://gitee.com/20162180090/piccgo/raw/master/pic/image-20210112143023257.png)
+
+第二种方法是通过数学公式推出来了的。 
+
+```java
+class Solution {
+    public int cuttingRope(int n) {
+        if(n <= 3) return n - 1;
+        int res=1;
+        //贪心算法，优先切三，其次切二
+        while(n>4){
+            res=res*3;
+            n-=3;
+        }
+        //出来循环只有三种情况，分别是n=2、3、4
+        return (res*n);
+    }
+}
+```
+
+![image-20210112143706634](https://gitee.com/20162180090/piccgo/raw/master/pic/image-20210112143706634.png)
+
+推导的公式：
+
+https://leetcode-cn.com/problems/jian-sheng-zi-lcof/solution/mian-shi-ti-14-i-jian-sheng-zi-tan-xin-si-xiang-by/
