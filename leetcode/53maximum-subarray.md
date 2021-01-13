@@ -4,11 +4,11 @@
 
 **如果之前的序列和小于0，则舍弃之前的序列和，重新开始计算。**
 
-![image-20200919152339446](53maximum-subarray.assets/image-20200919152339446.png)
+![image-20200919152339446](https://gitee.com/20162180090/piccgo/raw/master/pic/image-20200919152339446.png)
 
-![image-20200919152303514](53maximum-subarray.assets/image-20200919152303514.png)
+![image-20200919152303514](https://gitee.com/20162180090/piccgo/raw/master/pic/image-20200919152303514.png)
 
-![image-20200919152355575](53maximum-subarray.assets/image-20200919152355575.png)
+![image-20200919152355575](https://gitee.com/20162180090/piccgo/raw/master/pic/image-20200919152355575.png)
 
 ```java
 class Solution {
@@ -31,7 +31,7 @@ class Solution {
 
 如果前一下标的元素大于0，则将其加入到这个元素中，其实和贪心算法差不多，只是修改了数组。
 
-![image-20200919153130262](53maximum-subarray.assets/image-20200919153130262.png)
+![image-20200919153130262](https://gitee.com/20162180090/piccgo/raw/master/pic/image-20200919153130262.png)
 
 ```java
 class Solution {

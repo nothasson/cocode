@@ -1,4 +1,4 @@
-![image-20201210095735388](pics/131palindrome-partitioning/image-20201210095735388.png)
+![image-20201210095735388](https://gitee.com/20162180090/piccgo/raw/master/pic/image-20201210095735388.png)
 
 ```java
 import java.util.*;
@@ -39,5 +39,5 @@ class Solution {
 }
 ```
 
-![image-20201210101151026](pics/131palindrome-partitioning/image-20201210101151026.png)
+![image-20201210101151026](https://gitee.com/20162180090/piccgo/raw/master/pic/image-20201210101151026.png)
 

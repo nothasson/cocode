@@ -8,7 +8,7 @@
 
 如果不用暴力解法的话，我是不会做的了。所以直接看题解。
 
-![image-20201006200809859](3longest-substring-without-repeating-characters.assets/image-20201006200809859.png)
+![image-20201006200809859](https://gitee.com/20162180090/piccgo/raw/master/pic/image-20201006200809859.png)
 
 
 

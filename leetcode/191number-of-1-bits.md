@@ -22,7 +22,7 @@ public class Solution {
 
 这里关键的想法是对于任意数字 n ，将 n 和 n - 1 做与运算，会把最后一个 1 的位变成 0
 
-![image-20201118100508331](pics/191number-of-1-bits/image-20201118100508331.png)
+![image-20201118100508331](https://gitee.com/20162180090/piccgo/raw/master/pic/image-20201118100508331.png)
 
 ```java
 public int hammingWeight(int n) {

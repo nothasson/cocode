@@ -17,7 +17,7 @@ class Solution {
 }
 ```
 
-![1](pics/435non-overlapping-intervals/678752f150168fc2e53a36d30e589b76ef81a95943c018b01bef6a548bfafeeb-file_1566313617208)
+![1](https://gitee.com/20162180090/piccgo/raw/master/pic/678752f150168fc2e53a36d30e589b76ef81a95943c018b01bef6a548bfafeeb-file_1566313617208)
 
 又是看了东哥的
 

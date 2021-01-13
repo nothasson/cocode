@@ -12,7 +12,7 @@ class Solution {
 }
 ```
 
-自己写的代码。![image-20201105205619655](pics/112path-sum/image-20201105205619655.png)
+自己写的代码。![image-20201105205619655](https://gitee.com/20162180090/piccgo/raw/master/pic/image-20201105205619655.png)
 
 狂错。
 

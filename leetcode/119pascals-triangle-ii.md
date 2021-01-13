@@ -1,6 +1,6 @@
 # 杨辉三角II
 
-![image-20200921184914031](119pascals-triangle-ii.assets/image-20200921184914031.png)
+![image-20200921184914031](https://gitee.com/20162180090/piccgo/raw/master/pic/image-20200921184914031.png)
 
 
 ```java

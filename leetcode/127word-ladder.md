@@ -28,7 +28,7 @@ wordList = ["hot","dot","dog","lot","log","cog"]
 
 基于该图，我们以 `beginWord` 为图的起点，以 `endWord` 为终点进行**广度优先搜索**，寻找 `beginWord` 到 `endWord` 的最短路径。
 
-![fig1](pics/127word-ladder/1.png)
+![fig1](https://gitee.com/20162180090/piccgo/raw/master/pic/1.png)
 
 ```java
 import java.util.ArrayList;

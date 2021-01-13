@@ -1,4 +1,4 @@
-![image-20201104110833025](pics/Untitled/image-20201104110833025.png)
+![image-20201104110833025](https://gitee.com/20162180090/piccgo/raw/master/pic/image-20201104110833025.png)
 
 ```java
 //主要是找好下标
