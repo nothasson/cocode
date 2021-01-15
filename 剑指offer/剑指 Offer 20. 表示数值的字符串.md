@@ -33,6 +33,8 @@ class Solution {
 
 https://leetcode-cn.com/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/solution/mian-shi-ti-20-biao-shi-shu-zhi-de-zi-fu-chuan-y-2/
 
+复制了就是会了。。
+
 ![Picture1.png](https://gitee.com/20162180090/piccgo/raw/master/pic/6f41d7e46fd0344c013980e3f46429dd7a7311bb4292783a482466a90f15747b-Picture1.png)
 
 ```java
