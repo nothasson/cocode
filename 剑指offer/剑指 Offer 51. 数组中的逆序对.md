@@ -7,7 +7,7 @@
 输出: 5
 ```
 
-这题以看就长成了我不会做的样子
+这题一看就长成了我不会做的样子
 
 [数组中的逆序对 - 数组中的逆序对 - 力扣（LeetCode） (leetcode-cn.com)](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/solution/shu-zu-zhong-de-ni-xu-dui-by-leetcode-solution/)
 
